@@ -1,4 +1,4 @@
-/* General CSS */
+/* general CSS */
 
 body {
     margin: 0 auto;
@@ -14,7 +14,12 @@ ul {
     list-style: none;
 }
 
-/* Links */
+img {
+    max-width: 100%;
+
+}
+
+/* links */
 
 a {
     text-decoration: none !important;
@@ -26,10 +31,19 @@ a:hover {
     color: #0dcaf0 !important;
 }
 
-/* Navbar */
+/* navbar */
 
 .navbar {
     position: relative;
+}
+
+.navbar-collapse {
+    text-align: center;
+}
+
+.navbar-light .navbar-toggler:focus {
+    color: #000;
+    box-shadow: 0 0 0 2px;
 }
 
 .navbar ul li {
@@ -48,4 +62,51 @@ a:hover {
     letter-spacing: 1.6px;
     text-transform: uppercase;
     color: #999;
+}
+
+/* banner content */
+
+.banner-section {
+    position: relative;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+
+.banner-section .banner-title {
+    position: relative;
+    margin: 0;
+    padding-top: 3rem;
+    padding-bottom: 2rem;
+    font-family: "Poppins", "sans-serif";
+    font-size: 40px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    color: #000;
+}
+
+.banner-section .banner-desc {
+    position: relative;
+    font-size: 22px;
+    font-weight: 500;
+}
+
+.banner-section .banner-btn {
+    position: relative;
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #a5a7a7;
+}
+
+/* footer */
+
+.footer {
+    width: 100%;
+    color: #000000;
+    font-weight: 300;
+    background: #f7f7f7;
+    text-align: center;
+    padding: 25px 0;
+    margin-top: 20px;
 }
