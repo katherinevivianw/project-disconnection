@@ -46,8 +46,13 @@ a:hover {
     box-shadow: 0 0 0 2px;
 }
 
+.navbar .navbar-brand {
+    padding-left: 3.5rem;
+}
+
 .navbar ul li {
     position: relative;
+    padding-right: 3.5rem;
     margin-left: 2.5rem;
     margin-right: 1rem;
 }
@@ -68,7 +73,7 @@ a:hover {
 
 .banner-section {
     position: relative;
-    padding-top: 3rem;
+    padding-top: 1rem;
     padding-bottom: 3rem;
 }
 
