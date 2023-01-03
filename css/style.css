@@ -135,6 +135,30 @@ a:hover {
     font-weight: 500;
 }
 
+/* interviews content */
+
+.interviews-heading {
+    position: relative;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+
+.interviews-heading .interviews-headline {
+    position: relative;
+    font-family: "Poppins", sans-serif;
+    font-size: 35px; 
+    font-weight: 400;
+    letter-spacing: 1px;
+    text-transform: capitalize;
+    color: #000;
+}
+
+.interviews-heading .interviews-desc {
+    position: relative;
+    font-size: 22px;
+    font-weight: 500;
+}
+
 /* footer */
 
 .footer {
